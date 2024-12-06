@@ -3,6 +3,7 @@ html , body{
     padding: 0 1%;
     box-sizing: border-box;
 }
+/*INDEX.HTML*/
 @media screen and (min-width: 992px) {
     #dropdownProfile{
         position: relative;
@@ -12,8 +13,6 @@ html , body{
         left: -105px;
     }
 }
-
-
 
 
 footer i:hover{
@@ -27,4 +26,23 @@ footer li a{
 footer li a:hover,footer li a:visited{
     text-decoration: underline;
    
+}
+/* PROFILE.HTML*/
+#profileTitle{
+    font-size :5rem;
+    font-weight: 400;
+}
+#profilePicture span{
+    position:absolute ;
+    top:5px;
+    left: 15px; 
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+#profilePicture span:hover{
+    background-color: #939fa8;
 }
