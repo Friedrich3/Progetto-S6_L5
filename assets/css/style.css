@@ -24,6 +24,7 @@ body{
     opacity: 100%;
     transform: scale(1.05);
     overflow: visible;
+    z-index: 1;         /*Aggiunto post debrief*/
 }
 
 footer i:hover{
