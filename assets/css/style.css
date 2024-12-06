@@ -1,10 +1,30 @@
 html , body{
     margin: 0;
-    padding: 0;
+    padding: 0 1%;
     box-sizing: border-box;
 }
-
-#wrapper{
-    padding: 0 2%;
+@media screen and (min-width: 992px) {
+    #dropdownProfile{
+        position: relative;
+    }
+    #dropdownProfile ul{
+        position: absolute;
+        left: -105px;
+    }
 }
 
+
+
+
+footer i:hover{
+    cursor:pointer;
+    color: #939fa8;
+}
+footer li a{
+    text-decoration: none;
+    color:#6C757D;
+}
+footer li a:hover,footer li a:visited{
+    text-decoration: underline;
+   
+}
