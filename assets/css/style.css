@@ -57,4 +57,5 @@ footer li a:hover,footer li a:visited{
 }
 #profilePicture span:hover{
     background-color: #939fa8;
+    cursor: pointer;               /*Aggiunto post debrief*/     
 }
